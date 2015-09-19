@@ -8,8 +8,8 @@ export default function ({ Plugin, types: t }) {
           }
           const modulesObject = file.opts.extra['provide-modules']
 
-          Object.keys(modulesObject).forEach(function(module){
-            let binding = modulesObject[module];
+          Object.keys(modulesObject).forEach(function(binding){
+            let module = modulesObject[binding];
             if (!scope.hasBinding(binding)) {
               node.body.unshift(
                 t.importDeclaration(
