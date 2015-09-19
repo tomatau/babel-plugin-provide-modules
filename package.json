@@ -1,7 +1,13 @@
 {
   "name": "babel-plugin-provide-modules",
   "version": "0.1.0",
-  "dependencies": {
-    "babel-core": "^5.6.0"
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rm -rf lib",
+    "build": "babel-plugin build",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
   }
 }
