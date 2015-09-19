@@ -2,6 +2,18 @@
   "name": "babel-plugin-provide-modules",
   "version": "0.2.0",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomatau/babel-plugin-provide-modules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tomatau/babel-plugin-provide-modules/issues"
+  },
+  "homepage": "https://github.com/tomatau/babel-plugin-provide-modules#readme",
+  "engines": {
+    "node": "4.1.x"
+  },
+  "license": "MIT",
   "scripts": {
     "clean": "rm -rf lib",
     "build": "babel-plugin build",
