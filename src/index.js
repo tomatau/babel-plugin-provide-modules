@@ -1,9 +1,14 @@
+const isEmptyObject = (obj={}) =>
+  !Object.keys(obj).length
+
 export default function ({ Plugin, types: t }) {
   return new Plugin("provide-modules", {
     visitor: {
       Program: {
         exit(node, parent, scope, file){
-          if (!file.opts || !file.opts.extra) {
+          if (!file.opts
+            || isEmptyObject(file.opts.extra)
+            || isEmptyObject(file.opts.extra['provide-modules'])) {
             return;
           }
           const modulesObject = file.opts.extra['provide-modules']
