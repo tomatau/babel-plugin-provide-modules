@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-provide-modules",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
