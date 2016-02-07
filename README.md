@@ -35,7 +35,7 @@ The above will inject the following into every file:
 import debug from 'debug';
 import {get, assign} from 'lodash';
 import {findDOMNode as find} from 'react-dom';
-import React, {PropTypes, cloneElement as find} from 'react';
+import React, {PropTypes, cloneElement as clone} from 'react';
 ```
 
 If any file already contains a binding defined in options, the binding will not be inserted.
