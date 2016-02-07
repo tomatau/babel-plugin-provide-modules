@@ -12,7 +12,7 @@ npm install --save babel babel-plugin-provide-modules
 
 The add plugin to .babelrc along with options.
 
-```json
+```js
 {
   "plugins": [
     ["provide-modules", {
