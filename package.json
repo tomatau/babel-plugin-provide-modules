@@ -11,7 +11,7 @@
   },
   "homepage": "https://github.com/tomatau/babel-plugin-provide-modules#readme",
   "engines": {
-    "node": "4.1.x"
+    "node": ">=4.x"
   },
   "license": "MIT",
   "scripts": {
