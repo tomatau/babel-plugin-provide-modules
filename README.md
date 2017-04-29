@@ -1,5 +1,7 @@
 # Provide Modules
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tomatau/babel-plugin-provide-modules.svg)](https://greenkeeper.io/)
+
 A babel plugin to Automatically load modules.
 
 Module (value) is loaded and the identifier (key) is used as free variable. The identifier is filled with the exports of the loaded module.
